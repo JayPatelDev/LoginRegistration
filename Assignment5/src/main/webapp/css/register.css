@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#DAF7A6; /* #45B8AC; */
+}
+#main_container{
+    position: absolute;
+    left: 25%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1000px;
+    height: 700px;
+    padding-top: 30px;
+    background-color: #FFC300;
+}
+.title_cls{
+    margin: 10px;
+    font-size: xx-large;
+    color: darkcyan;
+    text-align: center;
+}
+.date_cls{
+    float: right;
+    margin-right: 10px;
+    border-bottom: 2px solid grey;
+    display: block;
+}
+.no-outline{
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #eee;
+}
+.no-outline:focus, .no-outline:active{
+    border-color: transparent;
+}
+.personal_info, .contact_info, .course_info, .login_info, .validate{
+    margin: 10px;
+}
+.input_cls{
+    border-bottom: 2px solid grey;
+}
+.validation{
+    border: 2px solid darkgray;
+    padding: 20px 170px 20px 5px;
+}
+
+.section_title{                
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: solid 2px black;
+}
+.first_sign{
+    margin-right: 30px;
+}
+.register_buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.submit_button{
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.register_button{            	
+    background-color: green;
+}
+.clear_button{
+    color: black !important;           	
+    background-color: white;
+    border: 2px solid darkgray;
+}
+.register_button:hover, .register_button:active {
+    background-color: red;
+}
+.clear_button:hover, .clear_button:active{            	
+    background-color: grey;
+}
+.col_1{
+    width: 25%;            	
+}
+.col_2{
+    width: 500px;
+}
+table{
+    border-collapse: collapse;
+}
+
+.login_div{
+    margin-top: 15px;
+    text-align: center;
+}
+.csat-home{
+    text-align: center;
+    text-decoration: none;
+}
